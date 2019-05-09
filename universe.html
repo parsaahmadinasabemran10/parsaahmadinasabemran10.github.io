@@ -27,29 +27,20 @@ function MM_preloadImages() { //v3.0
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
 </script>
 </head>
 
-<body bgcolor="#064600" text="#FFFFFF" link="#FFE200" vlink="#14FF00" alink="#FF8400" onLoad="MM_preloadImages('rollover navigation/home 2.gif','rollover navigation/aboutme 2.gif','rollover navigation/usairlines 2.gif','rollover navigation/animals 2.gif','rollover navigation/logos 2.gif','rollover navigation/games 2.gif','rollover navigation/bodysystems 2.gif','rollover navigation/usstates 2.gif','rollover navigation/mybike 2.gif','rollover navigation/philadelphiaeagles 2.gif','rollover navigation/cityofphiladelphia 2.gif','rollover navigation/imagemap 2.gif','rollover navigation/bikes 2.gif','rollover navigation/climatechange 2.gif','rollover navigation/globalwarming 2.gif','rollover navigation/earth 2.gif','rollover navigation/universe 2.gif','rollover navigation/forms 2.gif')">
+<body bgcolor="#064600" text="#FFFFFF" link="#FFE200" vlink="#14FF00" alink="#FF8400">
 	<div align="center" id="top-of-page">
-	  <table width="75%" border="0" cellspacing="0" cellpadding="0">
-	    <tbody>
+	  <table width="98%" border="0" cellspacing="0" cellpadding="0">
+	    <tr>
+	      <td>          
+	      <tbody>
+        <td>                  
 	      <tr>
+	        <td>            
+	        <tr>
+          <td>                      
 	        <td height="18"><table width="100%" border="0" cellspacing="0" cellpadding="0">
 	          <tbody>
 	            <tr>
@@ -253,10 +244,52 @@ window.onload=WorldClock
             </table></td>
           </tr>
 	      <tr>
-	        <td align="center"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','rollover navigation/home 2.gif',1)"><img src="rollover navigation/home 1.gif" alt="" width="100" height="27" id="Home"></a><a href="aboutme.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('About Me','','rollover navigation/aboutme 2.gif',1)"><img src="rollover navigation/aboutme 1.gif" alt="" width="100" height="27" id="About Me"></a><a href="usairlines.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('US Airlines','','rollover navigation/usairlines 2.gif',1)"><img src="rollover navigation/usairlines 1.gif" alt="" width="100" height="27" id="US Airlines"></a><a href="animals.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Animals','','rollover navigation/animals 2.gif',1)"><img src="rollover navigation/animals 1.gif" alt="" width="100" height="27" id="Animals"></a><a href="logos.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Logos','','rollover navigation/logos 2.gif',1)"><img src="rollover navigation/logos 1.gif" alt="" width="100" height="27" id="Logos"></a><a href="games.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Games','','rollover navigation/games 2.gif',1)"><img src="rollover navigation/games 1.gif" alt="" width="100" height="27" id="Games"></a><a href="bodysystems.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Body Systems','','rollover navigation/bodysystems 2.gif',1)"><img src="rollover navigation/bodysystems 1.gif" alt="" width="100" height="27" id="Body Systems"></a><a href="usstates.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('US States','','rollover navigation/usstates 2.gif',1)"><img src="rollover navigation/usstates 1.gif" alt="" width="100" height="27" id="US States"></a><a href="mybike.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('My Bike','','rollover navigation/mybike 2.gif',1)"><img src="rollover navigation/mybike 1.gif" alt="" width="100" height="27" id="My Bike"></a><a href="philadelphiaeagles.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Philadelphia Eagles','','rollover navigation/philadelphiaeagles 2.gif',1)"><img src="rollover navigation/philadelphiaeagles 1.gif" alt="" width="100" height="27" id="Philadelphia Eagles"></a><a href="cityofphiladelphia.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('City of Philadelphia','','rollover navigation/cityofphiladelphia 2.gif',1)"><img src="rollover navigation/cityofphiladelphia 1.gif" alt="" width="100" height="27" id="City of Philadelphia"></a><a href="imagemap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image Map','','rollover navigation/imagemap 2.gif',1)"><img src="rollover navigation/imagemap 1.gif" alt="" width="100" height="27" id="Image Map"></a><a href="bikes.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Bikes','','rollover navigation/bikes 2.gif',1)"><img src="rollover navigation/bikes 1.gif" alt="" width="100" height="27" id="Bikes"></a><a href="climatechange.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Climate Change','','rollover navigation/climatechange 2.gif',1)"><img src="rollover navigation/climatechange 1.gif" alt="" width="100" height="27" id="Climate Change"></a><a href="globalwarming.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Global Warming','','rollover navigation/globalwarming 2.gif',1)"><img src="rollover navigation/globalwarming 1.gif" alt="" width="100" height="27" id="Global Warming"></a><a href="earth.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Earth','','rollover navigation/earth 2.gif',1)"><img src="rollover navigation/earth 1.gif" alt="" width="100" height="27" id="Earth"></a><a href="universe.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Universe','','rollover navigation/universe 2.gif',1)"><img src="rollover navigation/universe 1.gif" alt="" width="100" height="27" id="Universe"></a><a href="forms.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Forms','','rollover navigation/forms 2.gif',1)"><img src="rollover navigation/forms 1.gif" alt="" width="100" height="27" id="Forms"></a></td>
-          </tr>
+	        <td height="84" align="center"><a href="index.html">Home</a> | <a href="aboutme.html">About Me</a> | <a href="contactinfo.html">Contact Info</a> | <a href="usairlines.html">US Airlines</a> | <a href="animals.html">Animals</a> | <a href="logos.html">Logos</a> | <a href="games.html">Games</a> | <a href="bodysystems.html">Body Systems</a> | <a href="usstates.html">US States</a> | <a href="mybike.html">My Bike</a> | <a href="philadelphiaeagles.html">Philadelphia Eagles</a> | <a href="cityofphiladelphia.html">City of Philadelphia</a> |<a href="imagemap.html"> Image Map</a> | <a href="bikes.html">Bikes</a> | <a href="climatechange.html">Climate Change</a> | <a href="globalwarming.html">Global Warming</a> | <a href="universe.html">Universe</a> | <a href="forms.html">Form</a></td>
+        </tr>
 	      <tr>
-	        <td height="518"><p><a href="https://www.space.com/39815-hubble-suggests-universe-expanding-faster-study.html" target="_blank"><img src="https://tribesofcreation.files.wordpress.com/2010/03/grand_universe_by_antifan_real1.jpg" alt="Related image" width="400"/></a>              Click on the image to go to the artilcle to learn more about the universe
+	        <td height="76" align="center" valign="top"><p>Please check out the external links to learn more about different planets (its images have them), different moons, different stars, different asteroids, and different galaxies; all links are external links to web pages with more info            
+            <p><a href="https://en.wikipedia.org/wiki/Moon" target="_blank">Moons</a> | <a href="https://en.wikipedia.org/wiki/Star" target="_blank">Stars</a> | <a href="https://en.wikipedia.org/wiki/Asteroid" target="_blank">Asteroids</a> | <a href="https://en.wikipedia.org/wiki/Galaxy" target="_blank">Galaxies</a></td>
+        </tr>
+	      <tr>
+	        <td height="189" align="left" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+	          <tbody>
+	            <tr>
+	              <td width="7%" height="159">Planets</td>
+	              <td width="93%" align="center"><table width="76%" border="0" cellspacing="0" cellpadding="0">
+	                <tbody>
+	                  <tr>
+	                    <td width="10%" height="64"><a href="https://en.wikipedia.org/wiki/Mercury_(planet)" target="_blank"><img src="https://nssdc.gsfc.nasa.gov/planetary/image/mercury.jpg" alt="Image result for mercury" width="107" height="100" title="Mercury"/></a></td>
+	                    <td width="11%"><a href="https://en.wikipedia.org/wiki/Venus" target="_blank"><img src="https://www.universetoday.com/wp-content/uploads/2017/08/venus-e1502994496509.jpg" alt="Image result for venus" width="120" height="100" title="Venus"/></a></td>
+	                    <td width="9%"><a href="https://en.wikipedia.org/wiki/Earth" target="_blank"><img src="http://www.nasa.gov/centers/goddard/images/content/638831main_globe_east_2048.jpg" alt="Image result for earth" width="102" height="100" title="Earth"/></a></td>
+	                    <td width="9%"><a href="https://en.wikipedia.org/wiki/Mars" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/220px-OSIRIS_Mars_true_color.jpg" alt="Image result for mars" width="99" height="100" title="Mars"/></a></td>
+	                    <td width="9%"><a href="https://en.wikipedia.org/wiki/Jupiter" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/220px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg" alt="Image result for jupiter" width="99" height="99" title="Jupiter"/></a></td>
+	                    <td width="18%"><a href="https://en.wikipedia.org/wiki/Saturn" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1200px-Saturn_during_Equinox.jpg" alt="image result for saturn" width="204" height="100" title="Saturn"/></a></td>
+	                    <td width="9%"><a href="https://en.wikipedia.org/wiki/Uranus" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/255px-Uranus2.jpg" alt="Image result for uranus" width="99" height="100" title="Uranus"/></a></td>
+	                    <td width="25%"><a href="https://en.wikipedia.org/wiki/Neptune" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/1200px-Neptune_Full.jpg" alt="Image result for neptune" width="96" height="96" title="neptune"/></a></td>
+                      </tr>
+	                  <tr>
+	                    <td height="80">Mercury</td>
+	                    <td height="80">Venus</td>
+	                    <td height="80">Earth</td>
+	                    <td height="80">Mars</td>
+	                    <td height="80">Jupiter</td>
+	                    <td height="80">Saturn</td>
+	                    <td height="80">Uranus</td>
+	                    <td height="80">Neptune</td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+                </tr>
+              </tbody>
+            </table></td>
+        </tr>
+	      <tr>
+	        <td height="518"><p><a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank"><img src="http://www.seasky.org/solar-system/assets/animations/solar_system_menu.jpg" alt="Image result for solar system" width="400" title="Solar System"/></a>
+	          Click on the image to go the external web page for more info about the solar system
+	          <p>
+	          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/libKVRa01L8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	          <p>                                          
+	          <p><a href="https://www.space.com/39815-hubble-suggests-universe-expanding-faster-study.html" target="_blank"><img src="https://tribesofcreation.files.wordpress.com/2010/03/grand_universe_by_antifan_real1.jpg" alt="Related image" width="400"/></a>              Click on the image to go to the artilcle to learn more about the universe
 	          <p>
 	          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/qVwjWKOaRWY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                            
 	          <p>                                        
@@ -438,13 +471,7 @@ where (r, θ, φ) correspond to a spherical coordinate system. This metric has o
     <p>The modern era of physical cosmology began in 1917, when Albert Einstein first applied his general theory of relativity to model the structure and dynamics of the Universe.</p>
     <p><a href="#top-of-page">Back To Top</a></p>    </p></td>
           </tr>
-	      <tr>
-	        <td align="center"><a href="index.html">Home</a> | <a href="aboutme.html">About Me</a> | <a href="usairlines.html">US Airlines</a> | <a href="animals.html">Animals</a> | <a href="logos.html">Logos</a> | <a href="games.html">Games</a> | <a href="bodysystems.html">Body Systems</a> | <a href="usstates.html">US States</a> | <a href="mybike.html">My Bike</a> | <a href="philadelphiaeagles.html">Philadelphia Eagles</a> | <a href="cityofphiladelphia.html">City of Philadelphia</a><a href="imagemap.html">Image Map</a> | <a href="bikes.html">Bikes</a> | <a href="climatechange.html">Climate Change</a> | <a href="globalwarming.html">Global Warming</a> | <a href="earth.html">Earth</a> | <a href="universe.html">Universe</a> | <a href="forms.html">Forms</a></td>
-        </tr>
-	      <tr>
-	        <td><a href="mailto: tug81042@temple.edu">Contact the web host</a></td>
-          </tr>
-        </tbody>
+	      </tbody>
       </table>
 </div>
 </body>

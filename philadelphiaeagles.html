@@ -25,25 +25,10 @@ function MM_preloadImages() { //v3.0
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
 </script>
 </head>
 
-<body background="images.jpeg" text="#FFFFFF" link="#F90216" vlink="#0000A8" alink="#4F0059" onLoad="MM_preloadImages('rollover navigation/home 2.gif','rollover navigation/aboutme 2.gif','rollover navigation/usairlines 2.gif','rollover navigation/animals 2.gif','rollover navigation/logos 2.gif','rollover navigation/games 2.gif','rollover navigation/bodysystems 2.gif','rollover navigation/usstates 2.gif','rollover navigation/mybike 2.gif','rollover navigation/philadelphiaeagles 2.gif','rollover navigation/cityofphiladelphia 2.gif','rollover navigation/imagemap 2.gif','rollover navigation/bikes 2.gif','rollover navigation/climatechange 2.gif','rollover navigation/globalwarming 2.gif','rollover navigation/earth 2.gif','rollover navigation/universe 2.gif','rollover navigation/forms 2.gif')">
+<body background="images.jpeg" text="#FFFFFF" link="#F90216" vlink="#0000A8" alink="#4F0059">
 	<div align="center" id="philadelphiaeagles-wrapper">
 	  <table width="75%" border="0" cellspacing="0" cellpadding="0">
 	    <td height="18" bgcolor="#35BF02"><tbody>
@@ -251,8 +236,8 @@ window.onload=WorldClock
             </table></td>
           </tr>
 	      <tr>
-	        <td align="center" bgcolor="#35BF02"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','rollover navigation/home 2.gif',1)"><img src="rollover navigation/home 1.gif" alt="" width="100" height="27" id="Home"></a><a href="aboutme.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('About Me','','rollover navigation/aboutme 2.gif',1)"><img src="rollover navigation/aboutme 1.gif" alt="" width="100" height="27" id="About Me"></a><a href="usairlines.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('US Airlines','','rollover navigation/usairlines 2.gif',1)"><img src="rollover navigation/usairlines 1.gif" alt="" width="100" height="27" id="US Airlines"></a><a href="animals.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Animals','','rollover navigation/animals 2.gif',1)"><img src="rollover navigation/animals 1.gif" alt="" width="100" height="27" id="Animals"></a><a href="logos.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Logos','','rollover navigation/logos 2.gif',1)"><img src="rollover navigation/logos 1.gif" alt="" width="100" height="27" id="Logos"></a><a href="games.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Games','','rollover navigation/games 2.gif',1)"><img src="rollover navigation/games 1.gif" alt="" width="100" height="27" id="Games"></a><a href="bodysystems.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Body Systems','','rollover navigation/bodysystems 2.gif',1)"><img src="rollover navigation/bodysystems 1.gif" alt="" width="100" height="27" id="Body Systems"></a><a href="usstates.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('US States','','rollover navigation/usstates 2.gif',1)"><img src="rollover navigation/usstates 1.gif" alt="" width="100" height="27" id="US States"></a><a href="mybike.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('My Bike','','rollover navigation/mybike 2.gif',1)"><img src="rollover navigation/mybike 1.gif" alt="" width="100" height="27" id="My Bike"></a><a href="philadelphiaeagles.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Philadelphia Eagles','','rollover navigation/philadelphiaeagles 2.gif',1)"><img src="rollover navigation/philadelphiaeagles 1.gif" alt="" width="100" height="27" id="Philadelphia Eagles"></a><a href="cityofphiladelphia.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('City of Philadelphia','','rollover navigation/cityofphiladelphia 2.gif',1)"><img src="rollover navigation/cityofphiladelphia 1.gif" alt="" width="100" height="27" id="City of Philadelphia"></a><a href="imagemap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image Map','','rollover navigation/imagemap 2.gif',1)"><img src="rollover navigation/imagemap 1.gif" alt="" width="100" height="27" id="Image Map"></a><a href="bikes.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Bikes','','rollover navigation/bikes 2.gif',1)"><img src="rollover navigation/bikes 1.gif" alt="" width="100" height="27" id="Bikes"></a><a href="climatechange.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Climate Change','','rollover navigation/climatechange 2.gif',1)"><img src="rollover navigation/climatechange 1.gif" alt="" width="100" height="27" id="Climate Change"></a><a href="globalwarming.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Global Warming','','rollover navigation/globalwarming 2.gif',1)"><img src="rollover navigation/globalwarming 1.gif" alt="" width="100" height="27" id="Global Warming"></a><a href="earth.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Earth','','rollover navigation/earth 2.gif',1)"><img src="rollover navigation/earth 1.gif" alt="" width="100" height="27" id="Earth"></a><a href="universe.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Universe','','rollover navigation/universe 2.gif',1)"><img src="rollover navigation/universe 1.gif" alt="" width="100" height="27" id="Universe"></a><a href="forms.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Forms','','rollover navigation/forms 2.gif',1)"><img src="rollover navigation/forms 1.gif" alt="" width="100" height="27" id="Forms"></a></td>
-          </tr>
+	        <td align="center" bgcolor="#35BF02"><a href="index.html">Home</a> | <a href="aboutme.html">About Me</a> | <a href="usairlines.html">US Airlines</a> | <a href="animals.html">Animals</a> | <a href="logos.html">Logos</a> | <a href="games.html">Games</a> | <a href="bodysystems.html">Body Systems</a> | <a href="usstates.html">US States</a> | <a href="mybike.html">My Bike</a> | <a href="philadelphiaeagles.html">Philadelphia Eagles</a> | <a href="cityofphiladelphia.html">City of Philadelphia</a><a href="imagemap.html">I </a>|<a href="imagemap.html"> mage Map</a> | <a href="bikes.html">Bikes</a> | <a href="climatechange.html">Climate Change</a> | <a href="globalwarming.html">Global Warming</a> | <a href="universe.html">Universe</a> | <a href="forms.html">Forms</a></td>
+        </tr>
 	      <tr>
 	        <td align="center" bgcolor="#35BF02"><p>Title: "Fly, Eagles, Fly" The Philadelphia Eagles Fight Song</p>
             <p>
@@ -436,9 +421,6 @@ window.onload=WorldClock
             <p><a href="#top-of-page">Back To Top</a></p>
             <p>&nbsp;</p></td>
           </tr>
-	      <tr>
-	        <td align="center" bgcolor="#35BF02"><a href="index.html">Home</a> | <a href="aboutme.html">About Me</a> | <a href="usairlines.html">US Airlines</a> | <a href="animals.html">Animals</a> | <a href="logos.html">Logos</a> | <a href="games.html">Games</a> | <a href="bodysystems.html">Body Systems</a> | <a href="usstates.html">US States</a> | <a href="mybike.html">My Bike</a> | <a href="philadelphiaeagles.html">Philadelphia Eagles</a> | <a href="cityofphiladelphia.html">City of Philadelphia</a><a href="imagemap.html">Image Map</a> | <a href="bikes.html">Bikes</a> | <a href="climatechange.html">Climate Change</a> | <a href="globalwarming.html">Global Warming</a> | <a href="earth.html">Earth</a> | <a href="universe.html">Universe</a> | <a href="forms.html">Forms</a></td>
-        </tr>
 	      <tr>
 	        <td bgcolor="#35BF02"><a href="mailto: tug81042@temple.edu">Contact the web host</a></td>
           </tr>
